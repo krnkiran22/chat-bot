@@ -150,3 +150,6 @@ export const sendMessageToGroq = async (message, conversationHistory = [], optio
         return "Sorry, I can't connect now. Try again soon or contact a crisis hotline if urgent.";
     }
 };
+
+
+
