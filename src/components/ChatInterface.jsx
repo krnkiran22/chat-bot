@@ -120,7 +120,7 @@ const ChatInterface = ({ isOpen, onClose }) => {
     return (
         <div className="fixed bottom-4 right-4 z-50">
             {/* Chat Modal */}
-            <div className="relative bg-gradient-to-b from-rose-200 via-pink-100 to-rose-50 shadow-2xl w-[450px] h-[600px] flex flex-col rounded-3xl overflow-hidden">
+            <div className="relative bg-gradient-to-b from-rose-200 via-pink-100 to-rose-50 shadow-2xl w-[450px] h-[600px] flex flex-col rounded-3xl overflow-hidden md:w-[450px] md:h-[600px] w-[95vw] h-[70vh] max-w-[90vw] max-h-[80vh]">
                 {/* Chat Header */}
                 <div className="p-6 flex justify-between items-start">
                     <div className="flex items-center">
