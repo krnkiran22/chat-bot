@@ -132,7 +132,7 @@ const ChatInterface = ({ isOpen, onClose }) => {
                             </div>
                         </div>
                         <div>
-                            <h3 className="text-xl font-bold text-gray-800">Therapy Sites</h3>
+                            <h3 className="text-xl font-bold text-gray-800">Therapy Site</h3>
                             <p className="text-sm text-gray-600">Therapy Assistant</p>
                         </div>
                     </div>

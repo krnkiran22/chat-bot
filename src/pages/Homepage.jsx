@@ -60,7 +60,7 @@ const TESTIMONIALS = [
     {
         name: "Rahul Sharma",
         role: "Patient",
-        content: "The care I received at Therapy Sites was exceptional. Dr. Kumar's expertise helped me overcome my anxiety issues.",
+        content: "The care I received at Therapy Site was exceptional. Dr. Kumar's expertise helped me overcome my anxiety issues.",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
     },
     {
@@ -112,7 +112,7 @@ const Homepage = () => {
                         <div className="flex items-center space-x-2">
                        
                             <div>
-                                <h1 className="text-2xl font-serif font-bold text-gray-800">Therapy Sites</h1>
+                                <h1 className="text-2xl font-serif font-bold text-gray-800">Therapy Site</h1>
                                 <span className="text-xs text-gray-500">Centres Paramédicaux</span>
                             </div>
                         </div>
@@ -662,7 +662,7 @@ const Homepage = () => {
                                     alt="Logo" 
                                     className="h-10 w-10 rounded-full mr-3"
                                 />
-                                <h3 className="text-xl font-serif font-bold">Therapy Sites</h3>
+                                <h3 className="text-xl font-serif font-bold"></h3>
                             </div>
                             <p className="text-gray-400 text-sm mb-4">Providing compassionate mental health services for your well-being since 2010.</p>
                             <div className="flex space-x-4">
@@ -717,7 +717,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-                        <p>© {new Date().getFullYear()} Therapy Sites Therapy Services. All rights reserved.</p>
+                        <p>© {new Date().getFullYear()} Therapy Site Therapy Services. All rights reserved.</p>
                         <div className="mt-2 flex justify-center space-x-4">
                             <a href="#" className="hover:text-teal-400 transition-colors">Privacy Policy</a>
                             <a href="#" className="hover:text-teal-400 transition-colors">Terms of Service</a>
